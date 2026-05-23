@@ -1,0 +1,55 @@
+/* 202432066_Yusuf Habibi Herbin_Pemograman Web_A */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #f4f7f6; 
+    margin: 0; 
+}
+header { 
+    background: #62a1b5; /* Sesuai gambar stok.html */
+    color: white; 
+    padding: 2rem; 
+    text-align: center; 
+}
+nav {
+    margin-top: 15px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+nav a.active { 
+    background: white; 
+    color: #62a1b5; 
+}
+main { padding: 2rem; max-width: 1000px; margin: auto; }
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.styled-table th {
+    background-color: #62a1b5;
+    color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.styled-table tbody tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+}

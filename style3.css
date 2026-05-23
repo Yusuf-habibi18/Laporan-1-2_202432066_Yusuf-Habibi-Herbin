@@ -1,0 +1,95 @@
+/* 202432066_Yusuf Habibi Herbin_Pemograman Web_A */
+body { 
+    background-color: #f0f2f5; 
+    font-family: 'Verdana', sans-serif; 
+    margin: 0;
+}
+
+/* Header dan Navigasi masih kosong */
+header { 
+    background-color: #476eae;
+    color: white;
+    padding: 30 px;
+    text-align: center;
+}
+nav ul { 
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Form pendaftaran belum memiliki styling kartu */
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a.active{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.reg-form { 
+    background: white; 
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-top: 10px solid #476eae;
+    box-shadow: 0 10px 25px rgba(0,0,0,0,1);
+
+}
+
+fieldset{
+    border: none;
+}
+
+legend {
+    font-size: 1. 5em;
+     color: #476eae;
+     margin-bottom: 20px;
+    }
+
+.from-group{
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width:100%;
+    padding: 12px;
+    border:1px solid #accc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Tombol masih standar */
+button { 
+    background: #476eae; 
+    color: white;
+    border:none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor:pointer;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button.hover{
+    background-color: #36558a;
+}
